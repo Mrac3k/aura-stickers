@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/icon/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <div class="container header-content">
+                <img src="./assets/icon/logo.svg" alt="Logo" class="header__logo">
+                <nav class="header__nav">
+                    <a href="#" class="header__nav-item">Авторы</a>
+                    <a href="#" class="header__nav-item">Коллекции</a>
+                    <a href="#" class="header__nav-item">Сервисы</a>
+                </nav>
+
+                <a href="#" class="btn header__btn">Кошелек</a>
+
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero__left">
+                    <h1 class="hero__title">Площадка для реализации криптостикеров</h1>
+                    <div class="hero__buttons">
+                        <a href="" class="btn hero__btn">Купить</a>
+                        <a href="" class="btn hero__btnn">Стать автором</a>
+                    </div>
+                </div>
+                <img src="./assets/img/stickers_hero.png" alt="hero-img" class="hero__right">
+            </div>
+            <img src="./assets/img/hero-mobile.png" alt="hero-img" class="hero__right-mobile">
+        </section>
+
+        <section class="auction">
+            <div class="container auction-content">
+
+                <!-- Верхняя часть -->
+                <div class="auction__top">
+                    <h2 class="auction__heading">Аукцион</h2>
+
+                    <div class="auction__body">
+                        <img src="./assets/img/Witcher-3 1.png" alt="cryptosticker-witcher" class="auction__image">
+
+                        <div class="auction__info">
+                            <div class="auction__user">
+                                <img src="./assets/img/avatar.png" alt="user-avatar" class="auction__avatar">
+                                <span class="auction__username">Serge_VM222</span>
+                            </div>
+
+                            <h3 class="auction__title">Witcherrr_3 (xml_t5)</h3>
+
+                            <div class="auction__meta">
+                                <div class="auction__bid"><span class="auction__bid-label">Ставка:</span>
+                                    <span class="auction__bid-value">0.10 ETH</span>
+                                    <span class="auction__bid-usd">$351.24</span>
+                                </div>
+                                <div class="auction__timer">
+                                    <span class="auction__timer-label">Окончание через:</span>
+
+                                    <div class="auction__timer-values">
+                                        <div class="auction__timer-item">
+                                            <span class="auction__timer-number">01</span>
+                                            <span class="auction__timer-text">Час</span>
+                                        </div>
+
+                                        <div class="auction__timer-item">
+                                            <span class="auction__timer-number">48</span>
+                                            <span class="auction__timer-text">Мин</span>
+                                        </div>
+
+                                        <div class="auction__timer-item">
+                                            <span class="auction__timer-number">47</span>
+                                            <span class="auction__timer-text">Сек</span>
+                                        </div>
+                                    </div>
+
+                                    <img src="./assets/icon/alarm-clock.svg" alt="" class="auction__timer-icon">
+                                </div>
+                            </div>
+
+                            <button class="btn auction__btn">Сделать ставку</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Нижняя часть -->
+                <div class="auction__down">
+                    <h3 class="auction__subheading">Другие аукционы</h3>
+
+                    <ul class="auction__list">
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/Alien.png"
+                                        alt="Alien (green) e_e">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/Frank.jpg" alt="">
+                                        <span class="auction-card__username">Frank.Nagval</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">Alien (green) e_e</h4>
+                                    <p class="auction-card__price">0.02 ETH</p>
+                                    <p class="auction-card__time">03 часа 25 мин 23 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/cobra_007.png" alt="CoBRRRa">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/CPH777.jpg" alt="">
+                                        <span class="auction-card__username">CPH_777</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">CoBRRRa</h4>
+                                    <p class="auction-card__price">0.5 ETH</p>
+                                    <p class="auction-card__time">15 мин 03 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/Diamonds.png" alt="Diamonds (4)">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/supah.jpg" alt="">
+                                        <span class="auction-card__username">sUpah_kiLLah</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">Diamonds (4)</h4>
+                                    <p class="auction-card__price">0.008 ETH</p>
+                                    <p class="auction-card__time">23 часа 05 мин 08 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/Holofobia-2.png"
+                                        alt="Holofobia-2">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/ttgs.jpg" alt="">
+                                        <span class="auction-card__username">ttgs</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">Holofobia-2</h4>
+                                    <p class="auction-card__price">1.0 ETH</p>
+                                    <p class="auction-card__time">01 час 15 мин 55 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/Baby Yoda 1.png"
+                                        alt="Baby Yoda 1">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/pepppee22.jpg" alt="">
+                                        <span class="auction-card__username">Peppppe22</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">Baby Yoda 1</h4>
+                                    <p class="auction-card__price">0.2 ETH</p>
+                                    <p class="auction-card__time">01 час 28 мин 11 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/alien vs predator-1.png"
+                                        alt="1300e1440">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/1300e1440.jpg" alt="">
+                                        <span class="auction-card__username">alien vs. predator (01)</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">alien vs. predator (01)</h4>
+                                    <p class="auction-card__price">0.09 ETH</p>
+                                    <p class="auction-card__time">08 часов 44 мин 43 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/img/IAMDECEPTICON.png"
+                                        alt="Robert_Wward">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/Robert_Wward.jpg" alt="">
+                                        <span class="auction-card__username">Robert_Wward</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">IAMDECEPTICON</h4>
+                                    <p class="auction-card__price">0.1 ETH</p>
+                                    <p class="auction-card__time">55 мин 18 сек</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="auction__item">
+                            <article class="auction-card">
+                                <div class="auction-card__media">
+                                    <img class="auction-card__image" src="./assets/icon/Ghostbusters-1 1.png"
+                                        alt="Ghostbusterrrrrrrs">
+                                </div>
+
+                                <div class="auction-card__body">
+                                    <div class="auction-card__user">
+                                        <img class="auction-card__avatar" src="./assets/icon/ttgss.jpg" alt="">
+                                        <span class="auction-card__username">ttgs</span>
+                                    </div>
+
+                                    <h4 class="auction-card__name">Ghostbusterrrrrrrs</h4>
+                                    <p class="auction-card__price">0.09 ETH</p>
+                                    <p class="auction-card__time">18 мин 12 сек</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+
+                    <a class="auction__more btn" href="/auctions">Все аукционы</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="sticker-slider">
+            <div class="container sticker-slider-content">
+                <div class="sticker-slider__heading">
+                    <img src="./assets/icon/fire.png" alt="" class="sticker-slider__icon">
+                    <span class="sticker-slider__title">
+                        Новые стикеры
+                    </span>
+                </div>
+                <div class="sticker-slider__list">
+                    <img src="./assets/img/Ghost-2.png" alt="" class="sticker-slider__image">
+                    <img src="./assets/img/Ghost-1.png" alt="" class="sticker-slider__image">
+                    <img src="./assets/img/Parental Advisory 1.png" alt="" class="sticker-slider__image">
+                </div>
+
+                <div class="sticker-slider__pagination">
+                    <button class="sticker-slider__dot sticker-slider__dot--active">1</button>
+                    <button class="sticker-slider__dot">2</button>
+                    <button class="sticker-slider__dot">3</button>
+                    <button class="sticker-slider__dot">4</button>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container newsletter__content">
+
+                <div class="newsletter__contentt">
+                    <span class="newsletter__title">Будь в курсе новинок! Подпишись на рассылку!</span>
+
+                    <form class="newsletter__form">
+                        <input type="text" class="newsletter__input" placeholder="Имя">
+                        <input type="email" class="newsletter__input" placeholder="E-mail">
+
+                        <button type="submit" class="newsletter__submit btn">Подписаться</button>
+
+                        <label class="newsletter__agreement">
+                            <input type="checkbox" class="newsletter__checkbox">
+                            <span class="newsletter__agreement-text">Согласен на обработку персональных данных</span>
+                        </label>
+                    </form>
+                </div>
+
+                <div class="newsletter__media">
+                    <img src="./assets/img/newsletter.png" alt="" class="newsletter__image-desktop">
+                    <img src="./assets/img/mobile.png" alt="" class="newsletter__image-tablet">
+                    <img src="./assets/img/newsletter-mobile.png" alt="" class="newsletter__image-mobile">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="become-author">
+            <div class="container become-author__content">
+
+                <div class="become-author__contentt">
+                    <h2 class="become-author__title">Стать автором</h2>
+                    <p class="become-author__lead">Если ты художник или стремишься им стать — добро пожаловать к нам!
+                    </p>
+                    <p class="become-author__text">
+                        Отправь нам от трёх до пяти своих работ и напиши свой ник в телеграме.
+                        Если наши кураторы решат, что нам по пути, то мы обязательно свяжемся
+                        с тобой и обговорим условия сотрудничества! <strong>Удачи!</strong>
+                    </p>
+                    <img src="./assets/img/become-author.png" alt="" class="become-author__image-desktop">
+                    <img src="./assets/img/tablet.png" alt="" class="become-author__image-tablet">
+                    <img src="./assets/img/become-author__mobile.png" alt="" class="become-author__image-mobile">
+                </div>
+
+                <form class="become-author__form">
+                    <label class="become-author__upload">
+                        <input type="file" accept=".jpeg,.jpg,.png" multiple class="become-author__file-input">
+                        <span class="become-author__upload-icon">+</span>
+                        <span class="become-author__upload-text">Прикрепить работы (.jpeg / .png)</span>
+                    </label>
+
+                    <input type="text" class="become-author__input" placeholder="@telegram_nickname">
+
+                    <button type="submit" class="become-author__submit btn">Отправить</button>
+                </form>
+
+            </div>
+        </section>
+
+        <section class="top-sales">
+            <div class="container top-sales-content">
+                <h2 class="top-sales__title">Топ продаж</h2>
+
+                <ul class="top-sales__list">
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/img/Holofobia-2.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/icon/ttgs_avatar.jpg" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">ttgs</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Holofobia1</h3>
+                                <p class="top-sales-card__price">
+                                    4.70 ETH <span class="top-sales-card__usd">($16,873.47)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/icon/¥ 1.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/icon/Tat_2.jpg" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">Tat_2</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Y.EEE</h3>
+                                <p class="top-sales-card__price">
+                                    3.00 ETH <span class="top-sales-card__usd">($10,731.24)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/img/baby_joda.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/icon/Chris22.png" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">Chris22</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Baby Joda</h3>
+                                <p class="top-sales-card__price">
+                                    2.00 ETH <span class="top-sales-card__usd">($7,121.04)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/img/infinity.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/icon/Oswaald.png" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">Oswaald</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Infinity_09</h3>
+                                <p class="top-sales-card__price">
+                                    1.6109 ETH <span class="top-sales-card__usd">($5,762.32)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/icon/Paul-22.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/img/sadsadsad.png" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">Paul-22</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Sadsadsad</h3>
+                                <p class="top-sales-card__price">
+                                    1.50 ETH <span class="top-sales-card__usd">($5,365.62)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                    <li class="top-sales__item">
+                        <article class="top-sales-card">
+                            <img src="./assets/icon/wardxxx.png" alt="" class="top-sales-card__image">
+                            <div class="top-sales-card__body">
+                                <div class="top-sales-card__user">
+                                    <img src="./assets/img/Atntnt.png" alt="" class="top-sales-card__avatar">
+                                    <span class="top-sales-card__username">wardxxx</span>
+                                </div>
+                                <h3 class="top-sales-card__name">Attntn</h3>
+                                <p class="top-sales-card__price">
+                                    1.0 ETH <span class="top-sales-card__usd">($3,577.08)</span>
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="top-requirements">
+            <div class="container top-requirements-content">
+
+                <div class="top-requirements__contentt">
+                    <h3 class="top-requirements__title">Для попадания в топ необходимо:</h3>
+
+                    <ul class="top-requirements__list">
+                        <li class="top-requirements__item">
+                            <img src="./assets/icon/collections.svg" alt="" class="top-requirements__icon">
+                            <span class="top-requirements__text">Минимум пять опубликованных работ</span>
+                        </li>
+                        <li class="top-requirements__item">
+                            <img src="./assets/icon/insert_emoticon.svg" alt="" class="top-requirements__icon">
+                            <span class="top-requirements__text">Инвайт трём коллегам по цеху</span>
+                        </li>
+                        <li class="top-requirements__item">
+                            <img src="./assets/icon/verified.svg" alt="" class="top-requirements__icon">
+                            <span class="top-requirements__text">Верифицированный аккаунт</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="top-requirements__media">
+                    <img src="./assets/icon/top-requirements.png" alt="" class="top-requirements__image">
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__top">
+                <div class="container footer__top-inner">
+
+                    <div class="footer__brand">
+                        <img src="./assets/icon/logo.svg" alt="" class="footer__img">
+                    </div>
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-list">
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">Соглашение</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">Лицензия</a>
+                            </li>
+                            <li class="footer__nav-item">
+                                <a href="#" class="footer__nav-link">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <div class="container">
+                    <p class="footer__copyright">AURA® | 2021</p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+</body>
+
+</html>
